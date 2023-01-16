@@ -114,3 +114,9 @@ thead {
     padding-left: 10px;
     margin-top: 10px;
 }
+
+/* FOOTER */
+
+footer p {
+    padding-left: 15px;
+}
