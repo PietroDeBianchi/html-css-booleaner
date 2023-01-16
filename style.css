@@ -1,12 +1,9 @@
-body {
-    margin: 0;
-}
 
-/* styling the header */
+/* PT 1 styling the HEADER */
 
 header {
     height: 120px;
-    background-color: rgb(95, 151, 236)
+    background-color: rgb(95, 151, 236);
 }
 
 #pattern {
@@ -22,4 +19,32 @@ header {
     width: auto;
     position: absolute;
     top: 40%;
+    left: 1%;
+}
+
+/* PT 2 styling the MAIN */
+
+/* title */
+
+h1 {
+    margin-bottom: 0;
+}
+
+#title p {
+    margin: 0;
+}
+
+#title span {
+    color: rgb(95, 151, 236);
+}
+
+/* T.B.L. img */
+
+figure {
+    margin-left: 0;
+}
+
+figure img {
+    height: 400px;
+    width: auto;
 }
