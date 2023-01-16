@@ -83,3 +83,34 @@ thead {
 .odd-line {
     background-color: lightblue;
 }
+
+/* main ALTRI INTERESSI */
+
+#monitor {
+    width: auto;
+    height: 200px;
+    background-image: url("img/monitor.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#graph {
+    width: auto;
+    height: 200px;
+    background-image: url("img/graph.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#otherinterest h2 {
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+#otherinterest h3 {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
