@@ -1,5 +1,12 @@
+body {
+    margin: 0;
+}
+
 
 /* PT 1 styling the HEADER */
+main {
+    margin: 1%;
+}
 
 header {
     height: 120px;
@@ -24,7 +31,7 @@ header {
 
 /* PT 2 styling the MAIN */
 
-/* title */
+/* main TITLE */
 
 h1 {
     margin-bottom: 0;
@@ -38,7 +45,7 @@ h1 {
     color: rgb(95, 151, 236);
 }
 
-/* T.B.L. img */
+/* main IMG*/
 
 figure {
     margin-left: 0;
@@ -47,4 +54,32 @@ figure {
 figure img {
     height: 400px;
     width: auto;
+}
+
+/* main ARTICLE + U.LIST */
+
+#listpart ul {
+    padding: 0;
+    list-style: inside;
+}
+
+/* main TABLE */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+td {
+    width: 33%;
+}
+
+thead {
+    color: white;
+    background-color: rgb(95, 151, 236);;
+}
+
+.odd-line {
+    background-color: lightblue;
 }
