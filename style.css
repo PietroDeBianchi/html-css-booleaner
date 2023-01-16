@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+/* styling the header */
+
+header {
+    height: 120px;
+    background-color: rgb(95, 151, 236)
+}
+
+#pattern {
+    height: 100%;
+    background-image: url("img/pattern.png");
+    background-repeat: repeat;
+    background-size: 35%;
+    position: relative;
+}
+
+#pattern img {
+    height: 60px;
+    width: auto;
+    position: absolute;
+    top: 40%;
+}
